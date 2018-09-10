@@ -10,8 +10,10 @@
 - type: replace
   path: /resource_pools/name=vms/stemcell?
   value:
-    url: https://bosh.io/d/github.com/cppforlife/bosh-virtualbox-cpi-release?v=((virtualbox_cpi_version))
-    sha1: ((virtualbox_cpi_sha1))
+    url: https://bosh.io/d/stemcells/bosh-vsphere-esxi-ubuntu-trusty-go_agent?v=3586.40
+    sha1: f96844f83f7a612d0e94ce29897c0a86f798b77a
+    # url: https://bosh.io/d/github.com/cppforlife/bosh-virtualbox-cpi-release?v=((virtualbox_cpi_version))
+    # sha1: ((virtualbox_cpi_sha1))
 
 # Configure sizes
 - type: replace

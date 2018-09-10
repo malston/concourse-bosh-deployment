@@ -24,7 +24,7 @@ resource_pools:
 
 disk_pools:
 - name: disks
-  disk_size: 32_768
+  disk_size: 131_072
 
 networks:
 - name: default

@@ -24,7 +24,9 @@ bosh create-env concourse.yml \
   -v internal_cidr=192.168.100.0/24 \
   -v internal_gw=192.168.100.1 \
   -v internal_ip=192.168.100.4 \
-  -v public_ip=192.168.100.4
+  -v public_ip=192.168.100.4 \
+  -v virtualbox_cpi_version=0.0.13 \
+  -v virtualbox_cpi_sha1=3aee2200f5d7ee20b149c7303009c3f6088ba559
 ```
 
 Note that you'll need [VirtualBox
